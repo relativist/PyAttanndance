@@ -1,8 +1,8 @@
-import datetime
 import json
 import urllib
 from urllib.request import urlopen
 import os.path
+from lxml.html import fromstring
 
 MAIN_HOST = 'http://10.1.1.49'
 
