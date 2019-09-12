@@ -34,8 +34,9 @@ peoplesData = []
 for person in peoples:
     peoplesData.append(calculateWork(person, nowDate))
 
-# if os.path.exists(lastFileName):
-#     os.remove(lastFileName)
+if os.path.exists(lastFileName):
+    os.remove(lastFileName)
+
 print('Time Attandance (v2.0): Python')
 print(
     '+-----------------------------------------------------------------------------------------------------------------------------------+')
