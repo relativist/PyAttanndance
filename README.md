@@ -1,3 +1,3 @@
 # PyAttanndance
 
-Show your and teemmate work attandance.
+Show your and teemmates work attandance.
